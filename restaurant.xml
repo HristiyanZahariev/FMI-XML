@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="template.xsl"?>
+
+<restaurant>
+    <food>
+        <name>Мусака</name>
+        <price>15 лв</price>
+        <description>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        </description>
+        <ingredients>
+            <ingredient>
+                <name>Картофи</name>
+                <amount>300g</amount>
+            </ingredient>
+            <ingredient>
+                <name>Кайма</name>
+                <amount>200g</amount>
+            </ingredient>
+        </ingredients>
+        <suitable-diets>
+            <value>high protein</value>
+            <value>high carbs</value>
+        </suitable-diets>
+        <macros>
+            <carbs>55g</carbs>
+            <fats>25g</fats>
+            <protein>55g></protein>
+        </macros>
+        <calories>650</calories>
+        <amount>500g</amount>
+    </food>
+    <food>
+        <name>Ябълков пай</name>
+        <price>23 лв</price>
+        <description>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        </description>
+        <ingredients>
+            <ingredient>
+                <name>Ябълки</name>
+                <amount>180g</amount>
+            </ingredient>
+            <ingredient>
+                <name>Орехи</name>
+                <amount>20g</amount>
+            </ingredient>
+        </ingredients>
+        <suitable-diets>
+            <value>vegan</value>
+            <value>keto</value>
+            <value>vegetarian</value>
+        </suitable-diets>
+        <macros>
+            <carbs>15g</carbs>
+            <fats>10g</fats>
+            <protein>5g></protein>
+        </macros>
+        <calories>350</calories>
+        <amount>200g</amount>
+    </food>
+    <food>
+        <name>Пилешка супа</name>
+        <price>10 лв</price>
+        <description>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        </description>
+        <ingredients>
+            <ingredient>
+                <name>Пилещко месо от бут</name>
+                <amount>200г</amount>
+            </ingredient>
+            <ingredient>
+                <name>Картофи</name>
+                <amount>80g</amount>
+            </ingredient>
+            <ingredient>
+                <name>Моркови</name>
+                <amount>20g</amount>
+            </ingredient>
+        </ingredients>
+        <suitable-diets>
+            <value>high protein</value>
+            <value>high carbs</value>
+        </suitable-diets>
+        <macros>
+            <carbs>15g</carbs>
+            <fats>10g</fats>
+            <protein>35g></protein>
+        </macros>
+        <calories>350</calories>
+        <amount>300g</amount>
+    </food>
+</restaurant>
