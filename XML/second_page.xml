@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hotels_catalog [
+  <!ENTITY img1 SYSTEM "http://www.banskohotelpremier.com/wp-content/uploads/2015/11/Presidential-Suite.jpg" NDATA jpg>
+  <!ENTITY img2 SYSTEM "https://awscloudfront.kempinski.com/1025/presidential-suite-living-room.jpg;width=982;height=401;mode=crop;anchor=middlecenter;autorotate=true;quality=90;scale=both;progressive=true;encoder=freeimage" NDATA jpg>
+  <!ENTITY img3 SYSTEM "http://www.grandhotelvelingrad.com/uploads/images/original/3_82.jpg" NDATA jpg>
+  <!ENTITY img4 SYSTEM "https://exp.cdn-hotels.com/hotels/17000000/16240000/16230600/16230566/dfbad1ed_z.jpg" NDATA jpg>
+  <!ENTITY img5 SYSTEM "http://cdn1.buuteeq.com/upload/2005171/46015521.jpg.1024x0.jpg" NDATA jpg>
+  <!ENTITY img6 SYSTEM "http://parkhotelarbanassi.com/wp-content/gallery/spacentur/terasa_basein.jpg" NDATA jpg>
+  <!ENTITY img7 SYSTEM "http://s-ec.bstatic.com/images/hotel/max1024x768/739/73943040.jpg" NDATA jpg>
+  <!ENTITY img8 SYSTEM "http://www.apoloniaresort.com/sites/default/files/galleries/bedroom.jpg" NDATA jpg>
+  <!NOTATION jpg PUBLIC "jpg">
+]>
+<?xml-stylesheet type="text/xsl" href="second_page.xsl"?>
+
+<hotels_catalog xmlns="http://www.w3schools.com"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.w3schools.com xml_project.xsd">
+
+  <hotels>
+
+   <hotel id="h1" city="Bansko" >
+    </hotel>
+
+  </hotels>
+    
+</hotels_catalog>

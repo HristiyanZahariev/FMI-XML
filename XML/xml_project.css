@@ -1,0 +1,105 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 14px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+h1 {
+	color: #013356;
+	/*color update*/
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 2%;
+	padding-bottom: 4px;
+	font-family: Comic Sans MS;
+	font-size: 2.8em;
+}
+
+table, th, td {
+	border-spacing: 0;
+	/*updated border*/
+	border: 1px solid #005B9A;
+}
+
+/*td {
+	background: #74C2E1;
+}*/
+
+table {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+tr:hover {
+	background: #74C2E1;
+	/*updated color*/
+}  
+
+tr:nth-of-type(2n+1) {
+	/*updated background*/
+	background: #D4AF37;
+}
+
+th {
+	color: #001f3f;
+	background: #D4AF37;
+	/*updated background*/
+	padding: 5px;
+	height: 35px;
+	/*updated border*/
+	border: 2px solid #005B9A;
+	font-size: 17px;
+}
+
+th a {
+	color: #001f3f;
+	/*updated to darker*/
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+td {
+	padding: 5px;
+	line-height: 1.2em;
+	height: 55px;
+	font-family: Corbel;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+td a {
+	text-decoration: none;
+	color: #013356;
+	/*updated color*/
+	cursor: pointer;
+	font-weight: 900;
+}
+
+td a:hover {
+      width: 100px;
+      text-align: center;
+      color: white;
+      background: #74C2E1;
+      /*updated to darker*/
+}
+
+#name {
+	font-weight: 900;
+	font-size: 2.5em;
+	color: #013356;
+	font-family: Comic Sans MS;
+}
+
+#description {
+	font-size: 19px;
+	color: #0191C8;
+	font-family: Corbel;
+	font-style: italic;
+}

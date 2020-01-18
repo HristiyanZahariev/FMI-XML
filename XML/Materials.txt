@@ -1,0 +1,22 @@
+first hotel, Bansko, "Premier": http://www.banskohotelpremier.com/rooms-suites/the-residence-collection/presidential-suite/
+
+second hotel, Bansko, "Kempinski": https://www.kempinski.com/en/bansko/hotel-grand-arena/rooms-and-suites/suites/presidential-suite/
+
+third hotel, Velingrad, "Grand hotel Velingrad": http://www.grandhotelvelingrad.com/en/article/3/%D0%B3%D1%80%D0%B0%D0%BD%D0%B4-%D0%B4%D0%B5%D0%BB%D1%83%D0%BA%D1%81-%D1%81%D1%82%D0%B0%D1%8F.html
+
+fourth hotel, Velingrad, "Royal SPA": https://www.hotels.com/ho629011/royal-spa-hotel-velingrad-bulgaria/
+
+fifth hotel, Veliko Tarnovo, "Tarnava": http://www.hotel-tarnava.com/photos.htm#0 
+https://www.hotels.com/ho362969/hotel-tarnava-veliko-tarnovo-bulgaria/
+
+sixth hotel, Veliko Tarnovo, "Park Hotel Arbanassi": http://parkhotelarbanassi.com/en/%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B8%D1%8F/
+
+seventh hotel, Sozopol, "Santa Marina": http://www.santamarina.bg/santamarina.html
+http://www.booking.com/hotel/bg/holiday-apartments.en-gb.html?aid=357023;label=gog235jc-city-bg-bg-velikoNturnovo-unspec-bg-com-L%3Abg-O%3AwindowsS7-B%3Achrome-N%3AXX-S%3Abo-U%3Ac;sid=ec890caf415d64c704d7683a761b6d7c;dest_id=-838537;dest_type=city;dist=0;group_adults=2;hpos=2;room1=A%2CA;sb_price_type=total;srfid=cde6837dbf2579ea52fff0a8728f5a2fc474a702X2;type=total;ucfs=1&
+
+eight hotel, Sozopol, "Apolonia Resort": http://www.apoloniaresort.com/en/gallery/apartamenti
+
+
+colors:
+http://www.colorcombos.com/color-schemes/121/ColorCombo121.html
+http://www.w3schools.com/cssref/

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hotels_catalog [
+  <!ENTITY img1 SYSTEM "http://www.banskohotelpremier.com/wp-content/uploads/2015/11/Presidential-Suite.jpg" NDATA jpg>
+  <!ENTITY img2 SYSTEM "https://awscloudfront.kempinski.com/1025/presidential-suite-living-room.jpg;width=982;height=401;mode=crop;anchor=middlecenter;autorotate=true;quality=90;scale=both;progressive=true;encoder=freeimage" NDATA jpg>
+  <!ENTITY img3 SYSTEM "http://www.grandhotelvelingrad.com/uploads/images/original/3_82.jpg" NDATA jpg>
+  <!ENTITY img4 SYSTEM "https://exp.cdn-hotels.com/hotels/17000000/16240000/16230600/16230566/dfbad1ed_z.jpg" NDATA jpg>
+  <!ENTITY img5 SYSTEM "http://cdn1.buuteeq.com/upload/2005171/46015521.jpg.1024x0.jpg" NDATA jpg>
+  <!ENTITY img6 SYSTEM "http://parkhotelarbanassi.com/wp-content/gallery/spacentur/terasa_basein.jpg" NDATA jpg>
+  <!ENTITY img7 SYSTEM "http://s-ec.bstatic.com/images/hotel/max1024x768/739/73943040.jpg" NDATA jpg>
+  <!ENTITY img8 SYSTEM "http://www.apoloniaresort.com/sites/default/files/galleries/bedroom.jpg" NDATA jpg>
+  <!NOTATION jpg PUBLIC "jpg">
+]>
+<?xml-stylesheet type="text/xsl" href="xml_project.xsl"?>
+
+<hotels_catalog xmlns="http://www.w3schools.com"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.w3schools.com xml_project.xsd">
+
+  <hotels>
+
+    <hotel id="h1" city="Bansko" url="second_page.html">
+      <name>Premier</name>
+      <description>Welcome to the lavish world of Premier Luxury Mountain Resort, a 5-star Hotel and Small Luxury Hotels member in Bansko, Bulgaria.	
+      Get ready for an all year round magic trip to a world of hospitality enriched with activities suitable for nature lovers, families and sport aficionados.
+      Mount Pirin’s natural beauty, combined with Premier Luxury Mountain Resort’s.
+		What makes Premier stand out?
+		The reasons are countless but let’s point out what makes Premier Luxury Mountain Resort a unique accommodation choice in Bansko, Bulgaria!
+        The warm welcome and effortless smiles by the people of Premier Luxury Mountain Resort!
+        The comfortable and elegant rooms and suites!
+        The palate-pleasing dishes of our restaurants and bars.
+        The convenient location at the foothills of Mount Pirin offering easy access to the ski center as well as the town of Bansko!
+        The exclusive VIP passes to the Ski Center, available at privileged prices only for the hotel’s guests.
+        The all year round variety of activities available
+        The indulging massage therapies and beauty treatments at Le Spa.
+        The state of the art venues for all corporate meetings and memorable events.
+        The special offers and affordable packages for stylish vacations all year long!
+        The happenings and special events organized by the Premier Luxury Mountain Resort!
+        Your departure with smiles, beautiful memories, a relaxed spirit and the promise to come back!
+      </description>
+      <about>                
+         <services>
+			<service>Amvrosia – butcher modern cuisine</service>
+			<service>Dionyssos buffet restaurant</service>
+			<service>Nectar Lobby Bar</service>
+			<service>Outdoors seasonal Pool bar</service>
+			<service>Non-Smoking Rooms</service>
+			<service>Family Rooms</service>
+			<service>Luggage Storage</service>
+			<service>4 Elevators</service>
+			<service>Heating</service>
+			<service>Air conditioning</service>
+			<service>Meeting/Banquet Facilities</service>
+			<service>Souvenir/Gift Shop</service>	
+			<service>Games Room</service>
+			<service>Outdoors Children’s Playground</service>
+			<service>Kids club</service>
+			<service>Hair Dresser salon</service>
+			<service>Le Spa Wellness Centre</service>
+			<service>Fitness Centre</service>
+			<service>2 types of Sauna</service>
+			<service>Massage</service>
+			<service>Jacuzzi</service>
+			<service>Turkish/Steam Bath</service>
+			<service>Hammam</service>
+			<service>Russian Bath</service>
+			<service>Heated Indoor Swimming Pool (all year)</service>
+			<service>Seasonal Outdoor Swimming Pool</service>
+			<service>Free parking available on site (reservations not necessary)</service>
+		</services>
+      </about>
+      
+      <stars>5</stars>
+      <price>182</price>
+    
+    </hotel>
+
+<hotel id="h2" city="Bansko" url="second_page.html">
+      <name>Kempinski Hotel Grand Area</name>
+      <description>Discover the beauty of unspoilt nature, magnificent landscapes and endless relaxation at the footsteps of the majestic Pirin Mountain – a UNESCO World Heritage environment.
+
+    We look forward to welcoming you to an oasis of luxury, comfort and tranquillity in Bansko - the most modern winter resort in the Balkans. Our five-star hotel is open year-round and comprises Alpine-style rooms and suites, superb conference facilities, lavish dining services and an award-winning spa centre.
+
+    As soon as you set foot in our hotel, you will be surrounded by a caring ambience created with the genuine desire to make you feel most welcome.
+      </description>
+      <about>                
+         <services>
+            <service>Genuine tranquillity in the relaxation area</service>
+            <service>Shopping therapy</service>
+            <service>Discover the culture and the historical heritage</service>
+            <service>Kempinski the SPA</service>  
+            <service>Alphasphere</service>
+            <service>Winter outdoor activities</service>
+            <service>Summer outdoor activities</service>
+            <service>Transfer</service>
+            <service>VIP ski pass</service>
+            <service>Kids club</service>
+            <service>Business services</service>
+            <service>Bicycles</service>
+            <service>Room comfort menu</service>
+            <service>Wake-up call</service>
+            <service>State-of-the-art ski room</service>
+            <service>Valet parking service</service>
+            <service>Gift voucher</service>
+            <service>Newspapers</service>
+            <service>Tennis court</service>
+            <service>Kempinski hair room</service>
+        </services>
+      </about>
+      
+      <stars>5</stars>
+      <price>171</price>
+    
+    </hotel>  
+  
+
+<hotel id="h3" city="Velingrad" url="second_page.html">
+      <name>Grand Hotel Velingrad</name>
+      <description>One of our top picks in Velingrad. Located on a picturesque hill in the Chepino neighbourhood in Velingrad, this hotel offers its guests an impressive view of both the city and the beautiful pine forest around.
+
+      Velingrad is renowned for the healing effect of its mineral water and recognized as the spa capital of Bulgaria. The hotel offers 4 indoor and outdoor swimming pools with mineral water.
+
+      In this SPA hotel you will discover a sense of traditional Bulgarian hospitality blending with a modern approach to service and standards, promising a genuinely warm and comfortable welcome. Prepare your body and soul to sink into the pleasure of the spa procedures.
+
+      Additionally, Grand hotel Velingrad offers meeting rooms and is designed to meet the ultimate requirements in conference tourism in Bulgaria. The expert staff will arrange and plan your seminar, conference or event. 
+
+      We speak your language!
+      </description>
+      <about>                
+         <services>
+      <service>Breakfast in the room</service>
+      <service>Bar</service>
+      <service>Bowling</service>
+      <service>Cycling</service>
+      <service>Hiking</service>
+			<service>Shuttle service (surcharge)</service>
+      <service>Air conditioning</service>
+      <service>Non-smoking throughout</service>
+      <service>Shops (on site)</service>
+      <service>Heating</service>
+      <service>Car hire</service>
+      <service>Packed lunches</service>
+      <service>Gift shop</service>
+      <service>Parking</service>
+      <service>4 swimming pools with mineral water</service>
+			<service>Bio sauna</service>
+      <service>Finnish sauna</service>
+      <service>Ice room</service>
+      <service>Aroma steam bath</service>
+      <service>Hot lounges</service>
+      <service>Volcano room (caldarium)</service>
+      <service>Special action showers</service>
+      <service>Relax room</service>
+      <service>Fitness room</service>
+      <service>BBQ facilities</service>
+      <service>Garden</service>
+		     </services>
+      </about>
+      
+      <stars>5</stars>
+      <price>166</price>
+    
+    </hotel>
+
+<hotel id="h4" city="Velingrad" url="second_page.html">
+      <name>Royal SPA Hotel</name>
+      <description>
+	     Welcome to the Royal Spa Velingrad!
+      Royal Spa Velingrad is the newest 4 star hotel in Velingrad town. The hotel has  standard, luxury rooms and apartments.  A cozy lobby bar, restaurant, cigar bar, outdoor garden, beauty salon, shop, conference hall, entertainment hall, billiards, kids playground and electronic games for children are available at the hotel. The largest SPA centre in Bulgaria  with the most modern equipped fitness centre is the perfect place for ultimate relaxation and rejuvenation.
+      Royal Spa Velingrad offers:
+      55 Standard rooms
+      44 Luxury rooms
+      12 apartments
+       
+      Spa centre / 2000 sq.m. /: children's swimming pools, cold swimming pools, thermal outdoor swimming pools, indoor swimming pool, outdoor swimming pool and three jacuzzi, Finnish sauna, Himalayan sauna, infrared sauna, panoramic sauna, aroma steam bath, panoramic steam bath, hammam, Roman bath, Russian bath, laconium, massage studios, relax area and thermal relax area.
+      </description>
+      <about>                
+         <services>
+			<service>Free buffet breakfast, free WiFi, and free parking</service>
+      <service>113 guestrooms</service>
+      <service>Restaurant and bar/lounge</service>
+      <service>Full-service spa</service>
+      <service>Indoor and outdoor pool</service>
+      <service>Fitness center</service>
+      <service>Childcare</service>
+      <service>Terrace</service>
+      <service>24-hour front desk</service>
+      <service>Daily housekeeping</service>
+      <service>Laundry service</service>
+      <service>Meeting room</service>
+      <service>Playground</service>
+      <service>Free cribs/infant beds</service>
+      <service>Children's pool</service>
+      <service>Playground on site</service>
+      <service>Babysitting or childcare (surcharge)</service>
+      <service>Children's club (surcharge)</service>
+      <service>Rollaway/extra beds (surcharge)</service>
+		     </services>
+      </about>
+      
+      <stars>4</stars>
+      <price>111</price>
+    
+    </hotel>
+
+    <hotel id="h5" city="Veliko Tarnovo" url="second_page.html">
+      <name>Hotel Tarnava</name>
+      <description>Set in a Renaissance building from the beginning of the 20th century, Hotel Tarnava is located in the centre of Veliko Tarnovo. It offers free WiFi and air-conditioned rooms.
+
+      The uniquely furnished rooms feature a balcony, cable TV and a hairdryer.
+
+      Guests can relax in the hotel’s bar, terrace or garden.
+
+      Situated in the centre of old town, the Tarnava is only a short walk from sights such as the Archeological Museum and the medieval fortress Tsarevets. 
+
+      This is our guests' favourite part of Veliko Tŭrnovo, according to independent reviews.
+      </description>
+      <about>                
+         <services>
+			<service>Free WiFi</service>
+      <service>12 guestrooms</service>
+      <service>Breakfast available</service>
+      <service>Bar/lounge</service>
+      <service>Terrace</service>
+      <service>Air conditioning</service>
+      <service>Garden</service>
+      <service>Car rentals on site</service>
+      <service>Front desk safe</service>
+      <service>Laundry service</service>
+      <service>Meeting room</service>
+      <service>Multilingual staff</service>
+      <service>Luggage storage</service>
+      <service>Rollaway/extra beds (surcharge)</service>
+      <service>Private bathroom</service>
+      <service>Television</service>
+      <service>Hair dryer</service>
+		     </services>
+      </about>
+      
+      <stars>3</stars>
+      <price>52</price>
+    
+    </hotel>
+    
+    <hotel id="h6" city="Veliko Turnovo" url="second_page.html">
+      <name>Park Hotel Arbanassi</name>
+      <description>Arbanassi Park Hotel will charm you with its refined atmosphere and homey wherever you are away from home..
+      Modern furnished rooms and suites with unique views of the hill “Tsarevets” will make your stay a memorable adventure.
+      And where all your senses are included in the harmony of the temptations to make your stay unforgettable.
+      Any dish that will reach out is part of our desire to feel special. Enjoy!
+      Arbanassi Park Hotel offers unique conditions for business meetings and seminars in the heart of Bulgaria.Here you will find everything you need about your relax deserved!
+      The best reward for good business is one that makes it even better.
+      Arbanassi Park Hotel is not just a hotel, and much more. This is your favorite place among the beautiful countryside, inspiring views and pure relaxation.
+      Rejuvenating spa treatments, relax by the pool or meeting with friends – these are just some of the magic moments that will get you!
+      </description>
+      <about>                
+         <services>
+			<service>Unique location in Arbanassi direct view of the hill “Tsarevets” and light show;</service>
+      <service>Location in Central Bulgaria – equally accessible from all parts;</service>
+      <service>Modern SPA center</service>
+      <service>Fitness</service>
+      <service>Spacious gardens overlooking Veliko Tarnovo;</service>
+      <service>Indoor, heated pool, which become outdoor in the summer;</service>
+      <service>Lobby with elegant atmosphere;</service>
+      <service>24-hour reception;</service>
+      <service>Main restaurant with terrace;</service>
+      <service>Hairdresser;</service>
+      <service>Massage;</service>
+      <service>Room Service;</service>
+      <service>Multi-purpose hall (with multimedia);</service>
+      <service>Parking (indoor);</service>
+      <service>Tennis court</service>
+      <service>Accommodation in double rooms and suites, offering four-star hotel services with the standard.</service>			
+		     </services>
+      </about>
+      
+      <stars>4</stars>
+      <price>68</price>
+    
+    </hotel>
+    
+    
+    <hotel id="h7" city="Sozopol" url="second_page.html">
+      <name>Santa Marina</name>
+      <description>
+      Welcome to Santa Marina Holiday Village – the place where the sun is at home and enjoys as neighbors people from all over the world.
+      Santa Marina is a beach-front resort the concept of which emphasizes on services and comfort. The famous King’s Beach is just underneath Santa Marina, and the surrounding pine forests make the village even more cozy and pleasant to live in.
+      With the unique facilities, excellent living conditions and exclusive servicing, Santa Marina guarantees an inimitable accommodation and recreation style. The large number of pools, restaurants, bars, children attractions, leisure and additional facilities make Santa Marina the ideal place for family vacations, long-term accommodation and even permanent residing.
+      The residential scheme includes 80 3- and 4-stoirey villas with apartments of various sizes as well as a wide range of services and facilities. The villas are arranged in an amphitheatric manner along the bay providing for breathtaking sea views from most of the properties. The complex is built in the distinct architectural style of the Bulgarian 19th century National Revival period. 70% of the overall resort’s area of about 100,000 sq. m. is dedicated to gardens, park alleys, parking and service facilities.
+      </description>
+      <about>                
+         <services>
+			<service>The swimming pools and solar terraces in Santa Marina are located along the Service and Entertainment Centers: 3 Swimming pools 1 and 2 Kid’s pools</service>
+			<service>2 playgrounds for children with fun toys</service>
+			<service>In-door and out-door massages</service>
+      <service>Various therapies</service>
+      <service>Sauna</service>
+      <service>Turkish bath</service>
+      <service>Gym</service>
+      <service>SPA Capsule with steam, chromotherapy, vichy shower, infrared and vibro massage</service>
+      <service>Beauty saloon</service>
+			<service>Breeze Pool Bar</service>
+      <service>Sky Pool Bar</service>
+      <service>Joy Piano Bar</service>
+      <service>Marina Mini Market offers great variety of fresh products, home and cosmetic necessities</service>
+      <service>Wine and Tobacco Shop</service>
+      <service>Souvenir Shop</service>
+      <service>Clothing Shop</service>
+      <service>Airplane tickets</service>
+      <service>Hotel bookings</service>
+      <service>Rent-a-car</service>
+      <service>Excursions</service>
+      <service>Safari tours</service>
+      <service>Boat trips</service>
+      <service>Yacht rents</service>
+		     </services>
+      </about>
+      
+      <stars>3</stars>
+      <price>101</price>
+    
+    </hotel>
+
+
+<hotel id="h8" city="Sozopol" url="second_page.html">
+      <name>Apolonia Resort</name>
+      <description>Apollonia Resort is an elegant four-star holiday complex, located in one of the most beautiful beaches on the Bulgarian Black Sea Coast magnificent King's Beach. With its purity and beauty, this beach attracts every year thousands of foreign and Bulgarian tourists. The concept of space finds its natural continuation in the review of the panoramic sea views from the terraces of each apartment, mystical Saint Ivan Island and the ancient town of Sozopol provide plenty of romantic experiences to the overall range of temptations in Apolonia Resort.
+      We are pleased to announce that in Apollonia Resort also have the option of purchasing furnished apartments with sea views at exclusive prices. In the interest of you can provide a view at a convenient time for you.
+      </description>
+      <about>                
+         <services>
+			<service>90 studio apartments, apartments</service>
+      <service>Restaurant</service>
+      <service>Rent-a-car</service>
+      <service>Travel agent office</service>
+      <service>Foreign-exchange</service>
+      <service>Pool bar, lobby bar</service>
+      <service>2 big-size swimming pools</service>
+      <service>Children's swimming pool</service>
+      <service>Whirlpool tub, gym, massage</service>
+      <service>Shops</service>
+      <service>Sun, golden beaches, blue sea, elegance and class – all that and more is Apolonia Resort.</service>
+			<service>Pool bar</service>
+      <service>Lobby bar</service>
+      <service>Entertainment and relax</service>
+		     </services>
+      </about>
+      
+      <stars>4</stars>
+      <price>97</price>
+    
+    </hotel>  
+
+
+
+  </hotels> 
+
+</hotels_catalog>

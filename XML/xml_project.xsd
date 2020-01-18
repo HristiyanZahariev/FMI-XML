@@ -1,0 +1,188 @@
+ <?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+			targetNamespace="http://www.w3schools.com"
+			xmlns="http://www.w3schools.com"
+			elementFormDefault="qualified">
+
+		<!-- *******Keys****** -->
+
+		<xs:key name="keyHotel">
+           <xs:selector xpath=".//hotel" />
+           <xs:field xpath="@city" />
+           <xs:field xpath="@id" />
+           <xs:field xpath="@url" />
+        </xs:key>
+
+        <xs:key name="keyAbout">
+           <xs:selector xpath=".//about" />
+           <xs:field xpath="services" />
+        </xs:key>
+
+        <xs:key name="keyHotels">
+     		<xs:selector xpath="hotels_catalog" />
+      		<xs:field xpath="hotels/hotel" />
+    	</xs:key>
+		
+    	<xs:keyref name="hotelRef" refer="keyHotel">
+	      <xs:selector xpath="hotels_catalog/hotels/hotel" />
+	      <xs:field xpath="@city" />
+    	</xs:keyref>
+
+		<xs:key name="keyGallery">
+			<xs:selector xpath="hotels_catalog" />
+			<xs:field xpath="hotels/hotel/@id" />
+			<xs:field xpath="images/image/@id" />
+		</xs:key>
+		
+		<xs:keyref name="galleryRef" refer="keyGallery">
+			<xs:selector xpath="hotels_catalog/gallery/hotel_image" />
+			<xs:field xpath="@hotel_id" />
+			<xs:field xpath="@image_id" />
+		</xs:keyref>
+
+		<!-- *******Unique elements****** -->
+
+		<xs:unique name="hotelUnique">
+     		<xs:selector xpath="hotel"/>
+     		<xs:field xpath="@id"/>
+     		<xs:field xpath="@url"/>
+		</xs:unique>
+
+<!-- ************ Simple Elements Declaration*************** -->
+
+	<xs:element name="name" type="xs:string" />
+
+	<xs:element name="description" type="xs:string" />
+
+	<xs:element name="stars" type="xs:integer">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="5"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="price" type="xs:positiveInteger"/>
+
+	<<!-- <xs:element name="stock" type="xs:string"/> -->
+
+	<!-- *************** / All elements declaration ************* -->
+
+	<!-- *************** Attributes ************** -->
+
+	<xs:simpleType name="city">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Bansko" />
+			<xs:enumeration value="Velingrad" />
+			<xs:enumeration value="Veliko Tarnovo" />
+			<xs:enumeration value="Sozopol" />
+			</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="hotel_id_type">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="h[1-9]?[1-9]" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="image_id_type">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="i[1-9][0-9]?[0-9]?" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!-- ***************/ Attributes ************** -->	
+
+	<!-- *************** Complex elements ************** -->
+
+	<xs:element name="about">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="services" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="hotel">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name" />
+				<xs:element ref="description" />
+				<xs:element ref="about" />
+				<xs:element ref="stars" />
+				<xs:element ref="price" />
+			</xs:sequence>
+			<xs:attribute name="id" type="hotel_id_type" use="required" />
+			<xs:attribute name="city" type="city_type" use="required" />	
+			<xs:attribute name="url" type="url_type" use="required" />		
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="image">
+		<xs:complexType>
+			<xs:attribute name="id" type="image_id_type" use="required" />
+			<xs:attribute name="href" type="xs:ENTITY" use="required" />
+			<xs:attribute name="desc" type="desc_type" use="required" />
+		</xs:complexType>
+	</xs:element>
+
+	<!-- ***************/ Complex elements ************** -->
+
+	<!-- *************** Main tags ************** -->
+
+	<xs:element name="hotels">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="hotel" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="images">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="image" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="picture">
+  		<xs:complexType>
+   			 <xs:attribute name="location" type="xs:ENTITY"/>
+ 		 </xs:complexType>
+	</xs:element>
+
+	<xs:element name="gallery">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="hotel_image" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="categories">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="category" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- ***************/ Main tags ************** -->
+
+	<!-- *************** whole document ************** -->
+
+	<xs:element name="hotels_catalog">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="hotels" />
+				<xs:element ref="hotel" />
+				<xs:element ref="city" />
+				<xs:element ref="gallery" />
+			</xs:sequence>
+		</xs:complexType>	
+	</xs:element>
+	
+</xs:schema> 
